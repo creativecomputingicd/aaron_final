@@ -1,10 +1,10 @@
 //IMPORT MODULES
-import './style.css';
+import '../style.css';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { createNoise3D} from "simplex-noise";
 import alea from 'alea';
-import {TriangleTable } from './ModifiedMarchingCubes.js';
+import {TriangleTable } from '../ModifiedMarchingCubes.js';
 import GUI from 'lil-gui';
 
 //CONSTANT & VARIABLES
